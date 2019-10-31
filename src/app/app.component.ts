@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular';
+
+  share(){
+    window.alert('test share!');
+  }
+
+  onNotify(){
+    window.alert('you will have a notify');
+  }
+
+
 }
